@@ -1,0 +1,18 @@
+
+.main_hom {
+    display: flex;
+}
+
+.home_txt {
+    width: 40%;
+    margin: 1em;
+}
+
+.home_img  {
+    width: 40%;
+    margin: 1em;
+}
+
+.home_img img {
+    height: 50%;
+}
