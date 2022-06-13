@@ -1,6 +1,12 @@
 .App {
   text-align: center;
 }
+button {
+  background-color: blue;
+}
+li {
+  list-style: none;
+}
 
 .App-logo {
   height: 40vmin;

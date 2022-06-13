@@ -1,4 +1,11 @@
-body {
+.App {
+  
+    /*-webkit-clip-path:polygon(0 0, 100% 35%, 100% 65%, 0% 100%);
+    clip-path:polygon(0 0, 100% 35%, 100% 65%, 0% 100%);
+    width:200px;
+    height:200px;
+    background:#E0E6E5;*/
+   
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',

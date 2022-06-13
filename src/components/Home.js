@@ -2,6 +2,8 @@ import thumb from '../images/thumb-1.png'
 import Features from './Features';
 import ScreenShots from './ScreenShots';
 import './Home.css'
+import Pricing from './Pricing';
+import MobApp from './MobApp';
 
 const Home = () => {
 
@@ -24,6 +26,8 @@ const Home = () => {
         </div>
         <Features/>
         <ScreenShots/>
+        <Pricing/>
+        <MobApp/>
         </>
     )
 }
