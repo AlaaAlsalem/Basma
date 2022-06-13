@@ -4,6 +4,7 @@ import ScreenShots from './ScreenShots';
 import './Home.css'
 import Pricing from './Pricing';
 import MobApp from './MobApp';
+import Contact from './Contact';
 
 const Home = () => {
 
@@ -28,6 +29,7 @@ const Home = () => {
         <ScreenShots/>
         <Pricing/>
         <MobApp/>
+        <Contact/>
         </>
     )
 }
