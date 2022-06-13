@@ -1,5 +1,6 @@
 import thumb from '../images/thumb-1.png'
 import Features from './Features';
+import ScreenShots from './ScreenShots';
 import './Home.css'
 
 const Home = () => {
@@ -22,6 +23,7 @@ const Home = () => {
             
         </div>
         <Features/>
+        <ScreenShots/>
         </>
     )
 }

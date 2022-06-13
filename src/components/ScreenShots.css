@@ -1,0 +1,11 @@
+
+.main {
+    display: flex;
+    background-color: aqua;
+    width: 90%;
+    margin: 10% 10%;
+}
+
+.second {
+    display: flex;
+}
