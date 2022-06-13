@@ -1,9 +1,11 @@
 import thumb from '../images/thumb-1.png'
+import Features from './Features';
 import './Home.css'
 
 const Home = () => {
 
     return (
+        <>
         <div className='main_hom'>
             <div className='home_txt'>
                 <h1>Creative way to shawcases your App</h1>
@@ -17,7 +19,10 @@ const Home = () => {
             <div className='home_img'>
                 <img src={thumb} alt="thumb-1"></img>
             </div>
+            
         </div>
+        <Features/>
+        </>
     )
 }
 
