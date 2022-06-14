@@ -5,11 +5,13 @@ import './Home.css'
 import Pricing from './Pricing';
 import MobApp from './MobApp';
 import Contact from './Contact';
+import Navbar from './Navbar';
 
 const Home = () => {
 
     return (
         <>
+        <Navbar/>    
         <div className='main_hom'>
             <div className='home_txt'>
                 <h1>Creative way to shawcases your App</h1>

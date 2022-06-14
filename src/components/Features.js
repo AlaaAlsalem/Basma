@@ -43,7 +43,7 @@ const Features = () =>{
 ];
 
     return (
-        <div className="main_feature">
+        <div className="main_feature" id="Features">
             <div className="Feature_description">
                 <h1>Code Challienge</h1>
                 <hr/>

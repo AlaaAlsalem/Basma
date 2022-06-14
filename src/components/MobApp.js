@@ -2,7 +2,7 @@ import GooglePlay from '../images/google-play.png'
 import AppStore from '../images/app-store.png'
 const MobApp = () => {
     return (
-        <div>
+        <div id='pages'>
             <div className="mob_main">
                 <h1>BASMA is available  for all devices</h1>
                 <p>sApp is available for all devices, consectetur adipiscing

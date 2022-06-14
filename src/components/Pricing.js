@@ -37,7 +37,7 @@ const Pricing = () => {
 },
     ]
     return (
-        <div>
+        <div id="pricing">
             <div className="pricing_main">
                 <h1>Code Challenge</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing
