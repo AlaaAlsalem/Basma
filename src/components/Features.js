@@ -35,20 +35,16 @@ const Features = () =>{
         title: 'Fully functional',
         description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore'
     },
-    {
-        id:1,
-        title: 'Fully functional',
-        description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore'
-    },
+   
 ];
 
     return (
         <div className="main_feature" id="Features">
             <div className="Feature_description">
                 <h1>Code Challienge</h1>
-                <hr/>
+                <hr className="line"/>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing
-                    elit, sed do eiusmod tempor incididunt ut labore</p>
+                    elit, sed do eiusmod tempor incididunt ut labore   sed do eiusmod tempor incididunt ut labore</p>
             </div>
             <div className="Feature_cards">{
                     cardsArray.map(item =>
