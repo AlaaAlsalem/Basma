@@ -1,18 +1,33 @@
 
 .main_hom {
     display: flex;
+    justify-content: center;
+    
+
 }
 
 .home_txt {
-    width: 40%;
+    width: 45%;
     margin: 1em;
 }
+
 
 .home_img  {
     width: 40%;
     margin: 1em;
+
 }
 
 .home_img img {
-    height: 50%;
+    height: 100%;
+}
+.home_txt h1 {
+    width: 50%;
+    font-weight: 1000;
+}
+
+.home_txt button {
+    width: 25%;
+    height: 3em;
+    border-radius: 0.5em;
 }
