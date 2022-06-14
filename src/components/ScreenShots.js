@@ -8,7 +8,7 @@ import thumb2 from '../images/thumb-2.png'
 const ScreenShots = () =>{
     return (
         <>
-                <div className='main'>
+                <div className='main' id='screenshots'>
             <div>
                 <img src={thumb} alt ='thumb2'/>
             </div>
