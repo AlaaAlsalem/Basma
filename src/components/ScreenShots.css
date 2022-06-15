@@ -1,11 +1,41 @@
 
 .main {
     display: flex;
-    background-color: aqua;
-    width: 90%;
-    margin: 10% 10%;
+    width: 100%;
+    /*margin: 5% 10%;*/
+    background-color: #e9f5f9;
 }
 
 .second {
     display: flex;
+}
+
+.Champion_img {
+    width: 40%;
+margin-left: 15%;
+margin-top: 3%;
+}
+
+.check, .call_icon {
+    color: #7c4fe0;
+    margin-right: 1em;
+}
+
+.Champion {
+    /* height: 90%; */
+    line-height: 2em;
+    text-align: center;
+    width: 90%;
+}
+
+.options h1 {
+    width: 80%;
+    text-align: center;
+    font-weight: 800;
+}
+
+button {    
+    height: 3em;
+    width: 10em;
+    margin-left: 3em;
 }

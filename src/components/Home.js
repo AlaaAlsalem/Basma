@@ -6,7 +6,7 @@ const Home = () => {
     return (
         <>
             
-        <div className='main_hom'>
+        <div className='main_hom' id='home'>
             <div className='home_txt'>
                 <h1>Creative way to Shawcases your App</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing
