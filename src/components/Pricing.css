@@ -1,0 +1,51 @@
+#pricing {
+    margin-top: 10%;
+    margin-left: -10%;
+    text-align: center;
+}
+
+.pricing_main {
+    background-color: #7c4fe0;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 90%;
+    height: 100%;
+    text-align: center;
+}
+.card p {
+    line-height: 2em;
+    font-weight: 100;
+}
+.card img {
+    width: 20%;
+}
+.cardd {
+    width:70%;
+}
+
+.pricing_second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+hr {
+    width: 20%;
+}
+
+.second_card {
+    text-align: center;
+}
+
+.price_card {
+    background-color: red;
+
+}
