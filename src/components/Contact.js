@@ -6,7 +6,7 @@ import './Contact.css'
 
 const Contact = () => {
     return (
-        <div>
+        <div id='contact_us'>
             <div>
                 <h1>Stay Tuned</h1>
                 <hr />

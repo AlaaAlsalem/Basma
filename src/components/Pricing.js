@@ -60,7 +60,7 @@ const Pricing = () => {
                 </div>
                 <div className="card second_card">
                     {priceCard.map(item =>
-                        <CardPricing className='price_card' path={item.path}
+                        <CardPricing  path={item.path}
                             title={item.title}
                             price={item.price}
                             feature1={item.feature1}
@@ -68,7 +68,7 @@ const Pricing = () => {
                             feature3={item.feature3}
                             feature4={item.feature4} />)}
                 </div>
-                <p>Not sure what to choose? <a href="#">Contact Us</a></p>
+                <p>Not sure what to choose? <a href="#contact_us">Contact Us</a></p>
             </div>
 
         </div>

@@ -1,7 +1,7 @@
 
 const CardPricing = (props) => {
     return (
-        <>
+        <div className="Price_card">
         <div>
         <img src={props.path} alt='basic/pro'/>
         <h1>{props.title}</h1>
@@ -19,7 +19,7 @@ const CardPricing = (props) => {
         </ul>
         <button type="button">sign up</button>
         </div>
-        </>
+        </div>
     )
 }
 

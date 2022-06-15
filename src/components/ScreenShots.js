@@ -45,7 +45,7 @@ const ScreenShots = () => {
                         <li><FaCheck className='check' />compain with a handful of model sentance structures looks reasonable  </li>
                         <li><FaCheck className='check' />compain with a handful of model sentance structures looks reasonable  </li>
                     </ul>
-                    <button type='button'>Learn More </button>
+                    <button type='button' className='screen_btn'>Learn More </button>
 
                 </div>
                 <div className='Champion_img'>

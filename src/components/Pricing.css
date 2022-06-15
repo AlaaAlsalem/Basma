@@ -2,6 +2,11 @@
     margin-top: 10%;
     margin-left: -10%;
     text-align: center;
+    background-color: #e9f5f9;
+}
+.Price_card {
+    background-color: white;
+    width: 80%;
 }
 
 .pricing_main {
@@ -43,6 +48,8 @@ hr {
 
 .second_card {
     text-align: center;
+    width: 50%;
+    margin-left: 25%;
 }
 
 .price_card {
