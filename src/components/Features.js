@@ -1,5 +1,5 @@
 import Cards from "./Cards";
-import './Features.css'
+import './styles/Features.css'
 
 
 const Features = () =>{

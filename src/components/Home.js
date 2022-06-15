@@ -1,5 +1,5 @@
 import thumb from '../images/thumb-1.png';
-import './Home.css';
+import './styles/Home.css';
 
 const Home = () => {
 

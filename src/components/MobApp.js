@@ -1,6 +1,6 @@
 import GooglePlay from '../images/google-play.png';
 import AppStore from '../images/app-store.png';
-import  './MobApp.css';
+import  './styles/MobApp.css';
 
 const MobApp = () => {
     return (

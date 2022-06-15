@@ -2,7 +2,7 @@ import thumb from '../images/thumb-2 (1).png'
 import form from '../images/form-mail.svg'
 import { FaCheck } from 'react-icons/fa'
 import { IoIosNotifications, IoMdMail, IoIosVideocam } from 'react-icons/io'
-import './ScreenShots.css';
+import './styles/ScreenShots.css';
 import thumb2 from '../images/thumb-2.png'
 
 const ScreenShots = () => {

@@ -2,7 +2,7 @@ import CardPricing from "./CardPricing";
 import Cards from "./Cards";
 import bike from '../images/bike.png';
 import motorbike from '../images/motorbike.png';
-import './Pricing.css'
+import './styles/Pricing.css'
 
 const Pricing = () => {
     const card = [{
