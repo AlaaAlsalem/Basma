@@ -5,10 +5,25 @@
     text-align: center;
 }
 
-.mob_main {
-    background-image: url('./download-bg.jpeg');
-    background-color: transparent('red');
+.transparent {
+    background-color: rgba(88, 29, 29, 0.5);
 }
+
+.transparent {
+    opacity: 0.5;
+}
+
+.mob_main {
+    text-align: center;
+    color: #fff;
+    /*background-image: url('./download-bg.jpeg');*/
+    background:url('./download-bg.jpeg')rgba(22, 11, 36, 0.3);
+    background-position: center;
+    background-size: cover;  
+    height: fit-content;
+}
+
+
 .mob_second {
     display: flex;
     flex-direction: column;
@@ -18,13 +33,16 @@
     background-repeat: no-repeat;
     background-size: 100%;
 }
+
 .mob_form {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
 }
-.mob_form input, .mob_form button {
+
+.mob_form input,
+.mob_form button {
     margin-top: 1em;
     text-align: center;
     width: 100%;

@@ -1,12 +1,45 @@
+#contact_us {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding-top: 3em;
+    background-color: #e9f5f9;
+    margin-top: 5%;
+    padding-left: 5%;
+}
+
+.stay_tund {
+    text-align: center;
+}
 
 .contact {
     display: flex;
     width: 90%;
     text-align: center;
+    flex-wrap: nowrap;
+}
+
+.conact_phone {
+    width: 40%;
+    padding-left:1em ;
 }
 
 .contact_form {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    flex-wrap: wrap;
+    padding-left: 2em;
+    width: 40%;
+}
+.icon {
+    color: blueviolet;
+}
+
+.finput {
+    margin-bottom: 1em;
+    height: 2em;
+  border: hidden;
+}
+input {
+    outline: none;
 }
